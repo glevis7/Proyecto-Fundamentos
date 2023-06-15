@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m4boutique23</title>
+    <link rel="shortcut icon" href="assets/img/LogoM4.jpg" type="image/x-icon">
+    <!--Fonts-->
+    <link rel="preconnet" href="https://fonts.googleapis.com">
+    <link rel="preconnet" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- JS -->
+    <script src="assets/js/main.js" type="module" defer></script>
+</head>
+<body>
+    <!--loader-->   
+    <!-- <div class="loader">
+        <div class="loaider__container">
+            <span></span>
+        </div>
+    </div> -->
+    <!--DarkMode-->
+   <p class="small-">Modo Nocturno</p>
+   <input id="checkitem" type="checkbox" >
+
+    <!--header-->
+    <header class="header">
+        <nav class="nav container">
+            
+                <a href="/" class="nav__logo">
+                    <img src="./assets/img/LogoM4.jpg" viewBox="0 0 48.92 56.48"
+                    class="logo">
+                </a>
+            
+            
+            <div class="nav__menu">
+                <button tipy="button" class="nav__btn btn--close">
+                    <i class='bx bx-message-square-x'></i>
+                </button>
+                <ul class="nav__list">
+                    <li class="nav__items">
+                        <a href="#" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__link">Productos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <button type="button" class="nav__btn--cart">
+                    <i class="bi bi-basket"></i>
+                    <span class="notify"></span>
+                </button>
+                <button type="button" class="nav__btn--menu"
+                id="open-menu">
+                <i class="bi bi-signpost-2"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!---Main-->
+    <main class="main">
+        <div class="container main-container section">
+
+            <div class="filters">
+                <h2>Productos por Categorías</h2>
+                <ul class="categories-list">
+                  <!-- Esto debe salir de filters -->
+                </ul>
+            </div>
+            <section class="productos">
+                <h2 class="products__title section--title">Productos</h2>
+                <div class="products__container">
+                  <!-- Productos desde products -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--Cart-->
+    <div class="cart">
+        <div class="cart__container">
+          <div class="cart__header">
+            <h3 class="cart__title">Carrito de Compras</h3>
+            <button type="button" class="cart__btn btn--close">
+              <i class='bx bx-x'></i>
+            </button>
+          </div>
+          <div class="cart__body">
+            
+          </div>
+          <div class="cart__footer">
+            <div class="cart__count">
+              <span class="cart__count--text">Articulos</span>
+              <span class="cart__count--item">0</span>
+            </div>
+            <div class="cart__total">
+              <span class="cart__count--text">Total</span>
+              <span class="cart__total--item">$0</span>
+            </div>
+            <button type="button" class="cart__btn btn--buy">
+              Comprar
+            </button>
+          </div>
+        </div>
+      </div>
+    
+    <!--Footer-->
+   <footer class="footer section">
+    <div class="footer__container container">
+        <div class="footer__top">
+            <div class="footer__left">
+            <h3 class="footer__title">Sobre mi</h3>
+            <p class="footer__text">Tengo una licenciatura en química en la Universidad de Los Andes, de Mérida Venezuela. Luego de emigrar de mi país, al no conseguir trabajo como químico y con muchos deseos de aprender, decidí prepararme como programadora, profesión en gran auge en estos momentos </p>   
+            </div>
+            <div class="footer__right">
+                <h3 class="footer__title">Redes Sociales</h3>
+                <ul class="footer__social">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <i class='bx bxl-instagram'></i>
+                        </a> 
+                    </li> 
+                    <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <i class='bx bxl-telegram'></i>
+                                </a> 
+                            </li>
+                        </a> 
+                    </li>      
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__text">Proyecto de fundamentos</p>
+   </footer> 
+</body>
+</html>
